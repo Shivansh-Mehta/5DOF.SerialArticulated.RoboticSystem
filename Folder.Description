@@ -1,0 +1,3 @@
+// I have added the folder containing the codes for Arduino. We had used Arduino Mega 2560 in our project.
+// Please refer to 5DOF.SerialArticulated.RoboticSystem.WS.zip for proper reception of files on your system, as some files don't seem to get uploaded onto GitHub.
+// I had used PlatformIO extension in VSCode for developing code for the Arduino.
