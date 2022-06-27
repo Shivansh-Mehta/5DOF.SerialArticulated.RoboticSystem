@@ -23,5 +23,12 @@ Software System:
 - (It was more of a development exercise, hence we didn't use any existing libraries except for the end-effector's servo motor.)
 - Proper C++ development practices are attempted for preparing the libraries and their usage.
 =========================================================================================================================================================================
-I hope that amateurs like myself, passionate about robotics and design, benefit greatly from this project. I kept it open-source for encouraging further enhancements to the system as I had given a little too much time in its development and hence, I aim to move forward in life and learn more. Our team of 2, Gagandeep Singh Gill and myself, had somehow completed its development in 4 months time for our Bachelor of Technology in Electrical Engineering degree's final semester (major) project. Any feedback is heartily appreciated. Although, there won't be any further developments from my side hereon, it's packed and finished here. Thank You :)
+I hope that amateurs like myself, passionate about robotics and design, benefit greatly from this project. 
+I kept it open-source for encouraging further enhancements to the system as I had given a little too much time in its development.
+And hence, I aim to move forward in life and learn more. 
+Our team of 2, Gagandeep Singh Gill and myself, had somehow completed its development in 4 months time for our Bachelor of Technology 
+in Electrical Engineering degree's final semester (major) project. 
+Any feedback is heartily appreciated. 
+Although, there won't be any further developments from my side hereon, it's packed and finished here. 
+Thank You :)
 =========================================================================================================================================================================
