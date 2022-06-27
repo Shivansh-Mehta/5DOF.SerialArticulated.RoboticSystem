@@ -13,6 +13,7 @@ Mechanical System:
 - The gears in the system are designed from ground up.
 =========================================================================================================================================================================
 Electrical System:
+- An Arduino Mega 2560 is used as microcontroller for this system.
 - It uses TB6600 drivers for driving NEMA17 and NEMA23 stepper motors.
 - It uses ULN2003 drivers for driving 28BYJ-48 stepper motors.
 - A servo is used for driving the end effector, which can be driven as per the maker's preference.
@@ -22,6 +23,7 @@ Software System:
 - Separate custom Stepper and Kinematics library are developed for the system, written from ground up for controlling the motors as per our convenience.
 - (It was more of a development exercise, hence we didn't use any existing libraries except for the end-effector's servo motor.)
 - Proper C++ development practices are attempted for preparing the libraries and their usage.
+- Code for end-effector is not developed yet. It's left to the maker to make it as per their preference. Although, it'll be short and simple.
 =========================================================================================================================================================================
 I hope that amateurs like myself, passionate about robotics and design, benefit greatly from this project. 
 I kept it open-source for encouraging further enhancements to the system as I had given a little too much time in its development.
