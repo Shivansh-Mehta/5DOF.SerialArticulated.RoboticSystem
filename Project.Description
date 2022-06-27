@@ -1,4 +1,27 @@
+=========================================================================================================================================================================
 # 5DOF.SerialArticulated.RoboticSystem
-- A completely 3D printable 5 DOF serial articulate robotic manipulator. 
-- Uses compliant mechanism based fastening system to avoid the use of screws anywhere in its assembly --> the whole system does use a single screw in its assembly. 
-- Completely 3D printable --> besides the electronic components and a 3D printer, one won't require any other tools for it fabrication and assembly
+- A completely 3D printable 5 DOF serial articulated robotic manipulator. 
+- Uses compliant mechanism based fastening system to avoid the use of screws anywhere in its assembly.
+- Completely 3D printable (besides the electronic components, obviously!)
+=========================================================================================================================================================================
+Mechanical System: 
+- CAD files are provided in CAD.Assembly.File(s) directory.
+- The whole assembly doesn't require a single screw and/or tool.
+- The system uses creative design approach and compliant mechanism based fasteners for achieving the desired objective of avoiding any tools and/or screws in its assembly process.
+- Hence, it completely benefits from the exploits of 3D printing, especially domestic printers with average build volumes of 15cmx15cmx15cm.
+- Also, a differential drive mechanism is used for the 4th and 5th joints to save space and enhance our design.
+- The gears in the system are designed from ground up.
+=========================================================================================================================================================================
+Electrical System:
+- It uses TB6600 drivers for driving NEMA17 and NEMA23 stepper motors.
+- It uses ULN2003 drivers for driving 28BYJ-48 stepper motors.
+- A servo is used for driving the end effector, which can be driven as per the maker's preference.
+- The system is powered by an ATX power supply unit.
+=========================================================================================================================================================================
+Software System:
+- Separate custom Stepper and Kinematics library are developed for the system, written from ground up for controlling the motors as per our convenience.
+- (It was more of a development exercise, hence we didn't use any existing libraries except for the end-effector's servo motor.)
+- Proper C++ development practices are attempted for preparing the libraries and their usage.
+=========================================================================================================================================================================
+I hope that amateurs like myself, passionate about robotics and design, benefit greatly from this project. I kept it open-source for encouraging further enhancements to the system as I had given a little too much time in its development and hence, I aim to move forward in life and learn more. Our team of 2, Gagandeep Singh Gill and myself, had somehow completed its development in 4 months time for our Bachelor of Technology in Electrical Engineering degree's final semester (major) project. Any feedback is heartily appreciated. Although, there won't be any further developments from my side hereon, it's packed and finished here. Thank You :)
+=========================================================================================================================================================================
