@@ -1,0 +1,8 @@
+- It contains 2 folders: 1 containing STL files & 1 containing a STEP file for reference while assembling the system.
+- In the STL files's folder, naming convention used for naming the files are:
+  P* for part files, 
+  F* for fastener files, 
+  PF* for pin fastener files, 
+  EE* for end-effector files,
+  M* for motor mounts,
+  S* for stand accessory
